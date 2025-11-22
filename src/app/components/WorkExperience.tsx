@@ -150,7 +150,7 @@ export function WorkExperience({
   return (
     <Section>
       <h2 className="text-xl font-bold" id="work-experience">
-        Work Experience
+        Рабочий опыт
       </h2>
       <div
         className="space-y-4 print:space-y-0"

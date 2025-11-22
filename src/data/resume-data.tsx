@@ -1,237 +1,107 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about: "Full Stack Engineer dedicated to building high-quality products.",
-  summary: (
-    <>
-      Full Stack Engineer specializing in high-performance React applications,
-      scalable Node.js services, and real-time collaboration systems.
-      Experienced in technical architecture design and remote team leadership.
-    </>
-  ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
-  contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
-    social: [
-      {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
-        icon: "github",
-      },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: "linkedin",
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: "x",
-      },
+    name: "Казанцев Артём Витальевич",
+    initials: "Казанцев А. В.",
+    location: "Симферополь",
+    locationLink: "https://yandex.ru/maps/146/simferopol/",
+    about: "Junior Backend / Full-stack Developer (Python, FastAPI, Vue3)",
+    summary: (
+        <>
+            Начинающий разработчик с высшим образованием в области прикладной математики. Имею опыт создания веб-приложений на Python (FastAPI) и Vue 3, работы с PostgreSQL, написания вспомогательных программ для автоматизации учёта и администрирования.
+            Быстро осваиваю новые технологии, люблю разбираться в системах, настраивать Linux-серверы и оптимизировать рабочие процессы. Ищу возможность развиваться в команде и участвовать в реальных проектах.
+        </>
+    ),
+    avatarUrl: "https://avatars.githubusercontent.com/u/53995940?s=400&u=2f98f54231a95a4cf520cc3042467b5fe056dd29&v=4",
+    personalWebsiteUrl: "https://lokach.ru",
+    contact: {
+        email: "artemiy6451@gmail.com",
+        tel: "+7(978)590-98-91",
+        social: [
+            {
+                name: "GitHub",
+                url: "https://github.com/artemiy6451",
+                icon: "github",
+            },
+        ],
+    },
+    education: [
+        {
+            school: "Крымский федеральный университет имени В. И. Вернадского",
+            degree: "Прикладная математика | Бакалавриат",
+            start: "2021",
+            end: "2025",
+        },
     ],
-  },
-  education: [
-    {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
-    },
-  ],
-  work: [
-    {
-      company: "Motion",
-      link: "https://motionapp.com/",
-      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Software Engineer",
-      start: "2025",
-      end: null,
-      description: (
-        <>
-          Working on internal AI agents platform allowing marketing specialists
-          to create AI workflows.
-        </>
-      ),
-    },
-    {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      start: "2024",
-      end: "2025",
-      description: (
-        <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      start: "2021",
-      end: "2024",
-      description: (
-        <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
-            </li>
-            <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
-    },
-  ],
-  skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
-  ],
-  projects: [
-    {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-      description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
+    work: [
+        {
+            company: "Enigma",
+            link: "https://github.com/artemiy6451/gizmo-sallary-calculator",
+            badges: ["Gizmo"],
+            title: "Администратор компьютерного клуба",
+            start: "июнь 2024",
+            end: "октябрь 2025",
+            description: (
+                <>
+                    <b>Задачи и достижения:</b>
+                    <ul className="list-inside list-disc">
+                        <li>
+                            Поддерживал работу клубных ПК, сетей и ПО Gizmo Powered.
+                        </li>
+                        <li>
+                            Создавал собственные вспомогательные программы для облегчения отчётности и расчёта зарплат сотрудников (ссылка на GitHub есть в резюме).
+                        </li>
+                        <li>
+                            Автоматизировал часть процессов за счёт Python-скриптов.
+                        </li>
+                    </ul>
+                </>
+            )
+        },
+    ],
+    skills: [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
         "PostgreSQL",
-        "Redis",
-      ],
-      description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
-      },
-    },
-  ],
+        "Vue3.js",
+        "Linux",
+        "Настройка почтового сервиса",
+        "Настройка Linux серверов",
+        "Git",
+        "Docker",
+        "Nginx",
+    ],
+    projects: [
+        {
+            title: "Travelvv",
+            techStack: ["Vue3.js", "Python", "FastAPI"],
+            description:
+            "Сайт с расписанием экскурсий, а также админ панелью для добавления/удаления, реадктирования текущих экскурсий.",
+            link: {
+                label: "Travelvv",
+                href: "https://travelvv.ru",
+            },
+        },
+        {
+            title: "Gizmo Salary Calculator",
+            techStack: ["Python", "PyTelegramBotAPI"],
+            description:
+            "Программа для подсчета зарплаты, на основе отчетов в телеграм группе. Сохранение отчетов в виде Excel таблицы.",
+            link: {
+                label: "Gizmo Salary Calculator",
+                href: "https://github.com/artemiy6451/gizmo-sallary-calculator",
+            },
+        },
+        {
+            title: "Telegram News Bot",
+            techStack: ["Python", "PyTelegramBotAPI"],
+            description:
+            "Агрегатор новостей из Habr и Medium с возможностью выставления тегов для определенных типов новостей.",
+            link: {
+                label: "Telegram News Bot",
+                href: "https://github.com/artemiy6451/telegram-news-bot",
+            },
+        },
+    ],
 } as const;
